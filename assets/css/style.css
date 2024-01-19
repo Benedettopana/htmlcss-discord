@@ -206,12 +206,12 @@ footer .btn{
 }
 
 .box#grigio{
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
 }
 
 .box#grande{
   height: 1300px;
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
 }
 
 footer .box{
@@ -221,7 +221,7 @@ footer .box{
 .box-contenitore{
   max-width: 1200px;
   width: 99%;
-  height: 600px;
+  height: 400px;
   margin: 300px;
   display: flex;
   align-items: center;
