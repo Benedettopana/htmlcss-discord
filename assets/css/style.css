@@ -11,15 +11,30 @@
   border: 2px dashed black;
 }
 
+/* fix img */
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  font-size: 60px;
+  margin-top: 30px;
+}
+
 body{
   /* max-width: 1200px; */
   background-color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  /* font-style: bold; */
 
 }
 
 /* header */
 header{
-  background-color: #ADD8E6;
+  background-color: #3161E0;
   height: 80px;
   padding: 0 350px 0 280px;
 
@@ -54,24 +69,20 @@ nav ul{
   display: flex;
   justify-content: space-around;
   justify-content: center;
-  /* flex-wrap: wrap; */
   
   list-style: none;
 }
 
 nav ul li a{
   text-decoration: none;
-  text-transform: uppercase;
   display: inline-block;
-  flex-wrap: wrap;
-
-  background-color: red;
-  color: yellow;
+  color: white;
+  margin-left: 20px;
   padding: 5px 10px;
 }
 
 nav ul li a:hover{
-  background-color: lightgreen;
+  background-color: lightgrey;
 }
 /* /nav centrale */
 
@@ -87,11 +98,29 @@ nav ul li a:hover{
 .btn{
   border: none; 
   padding: 15px 20px;
-  border-radius: 20px;
+  border-radius: 30px;
   cursor: pointer;
 
   font-weight: bold;
 }
+
+.btn#grande-bianco{
+  margin: 30px 10px;
+  padding: 20px 40px;
+  font-size: 1rem;
+
+}
+
+.btn#grande-nero{
+  color: white;
+  background-color: #23272A;
+  font-size: 1.2rem;
+  margin: 30px 10px;
+  padding: 20px 40px;
+
+}
+
+
 
 /* footer btn */
 footer .btn{
@@ -116,17 +145,26 @@ footer .btn{
   justify-content: center;
 }
 
+.box#jumbo{
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+}
+
 /* hero */
 .box .hero{
-  background-color: #EE82EE;
+  /* background-color: #EE82EE; */
   width: 98%;
   max-width: 950px;
   height: 400px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+
+  text-align: center;
+
+
+}
+
+.hero p{
+  margin-top: 50px;
+  font-size: 20px;
 }
 /* /hero */
 
@@ -147,7 +185,7 @@ footer .btn{
 
 
 .box-contenitore{
-  background-color: #DAA520;
+  /* background-color: #DAA520; */
   width: 1200px;
   height: 500px;
   margin: 300px;
