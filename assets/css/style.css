@@ -1,0 +1,260 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* controllo grandezze flex */
+.debug{
+  background-color: (255, 0, 0, .2);
+  border: 2px dashed black;
+}
+
+body{
+  /* max-width: 1200px; */
+  background-color: white;
+
+}
+
+/* header */
+header{
+  background-color: #ADD8E6;
+  height: 80px;
+  padding: 0 350px 0 280px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* logo */
+.logo{
+  display: flex;
+  justify-content: left;
+}
+
+footer .logo{
+  background-color: #FFB6C1;
+  width: 50px;
+}
+
+.logo .logo-img{
+  width: 250px;
+}
+/* /logo */
+
+/* nav centrale */
+nav{
+  width: 750px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-wrap: wrap;
+
+  background-color: red;
+  color: yellow;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover{
+  background-color: lightgreen;
+}
+/* /nav centrale */
+
+/* login  */
+.login{
+  width: 250px;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+/* bottone */
+.btn{
+  border: none; 
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+/* footer btn */
+footer .btn{
+  background-color: #FFB6C1;
+}
+
+/* login  */
+
+/* /header */
+
+
+/* main */
+
+
+/* box */
+.box{
+  background-color: #00008B;
+  height: 600px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero */
+.box .hero{
+  background-color: #EE82EE;
+  width: 98%;
+  max-width: 950px;
+  height: 400px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* /hero */
+
+
+.box#bianco{
+  background-color: #FFFFFF;
+}
+
+.box#grigio{
+  background-color: #D3D3D3;
+}
+
+.box#grande{
+  height: 1000px;
+  background-color: #D3D3D3;
+}
+
+
+
+.box-contenitore{
+  background-color: #DAA520;
+  width: 1200px;
+  height: 500px;
+  margin: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .box-contenitore{
+  height: 40px;
+  margin: 0;
+
+}
+
+.box-contenitore#footer-bot{
+  background-color: #7FFFD4;
+
+}
+
+.box-contenitore#big{
+  height: 900px;
+}
+
+/* footer box */
+footer .box{
+  background-color: #23272A;
+  border-bottom: 2px solid #F6F8F9 ;
+}
+
+footer .box#piccolo{
+  height: 100px;
+
+  border: none;
+}
+/* /footer box */
+
+
+/* /box */
+
+/*  box settanta-trenta*/
+.box-contenitore .settanta{
+  width: 70%;
+  height: 100%;
+  background-color: #1E90FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-contenitore .trenta{
+  width: 30%;
+  height: 100%;
+  background-color: #FFC0CB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /box settanta-trenta*/
+
+/* box 100 */
+.box-contenitore .cento{
+  width: 100%;
+  height: 100%;
+  background-color: #228B22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /box 100 */
+
+/* box footer */
+footer .box-contenitore .foot-grande{
+  width: 35%;
+  height: 100%;
+  background-color: #F08080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .box-contenitore .foot-piccolo{
+  width: 20%;
+  height: 100%;
+  background-color: #20B2AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .box-contenitore#prova{
+  background-color: rgba(255, 0, 0, 0);
+  height: 100px;
+}
+footer .box-contenitore .little{
+  background-color: #7FFFD4;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+/* /box footer */
+
+
+/* /main */
