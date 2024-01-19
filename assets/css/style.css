@@ -22,6 +22,11 @@ h1{
   margin-top: 30px;
 }
 
+h2{
+  font-size: 50px;
+  margin: 20px 40px;
+}
+
 body{
   /* max-width: 1200px; */
   background-color: white;
@@ -138,7 +143,7 @@ footer .btn{
 /* box */
 .box{
   background-color: #00008B;
-  height: 600px;
+  height: 800px;
   
   display: flex;
   align-items: center;
@@ -186,8 +191,9 @@ footer .btn{
 
 .box-contenitore{
   /* background-color: #DAA520; */
-  width: 1200px;
-  height: 500px;
+  max-width: 1200px;
+  width: 99%;
+  height: 600px;
   margin: 300px;
   display: flex;
   align-items: center;
@@ -227,20 +233,30 @@ footer .box#piccolo{
 
 /*  box settanta-trenta*/
 .box-contenitore .settanta{
-  width: 70%;
+  width: 60%;
   height: 100%;
-  background-color: #1E90FF;
-  display: flex;
+  /* background-color: #1E90FF; */
+  
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .box-contenitore .trenta{
-  width: 30%;
+  width: 40%;
   height: 100%;
-  background-color: #FFC0CB;
-  display: flex;
+  color: black;
+  text-align: center;
+  
+  /* background-color: #FFC0CB; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+}
+
+.trenta p{
+  text-align: center;
+  margin: 20px 40px;
+  font-size: 1.2rem;
 }
 /* /box settanta-trenta*/
 
@@ -249,9 +265,9 @@ footer .box#piccolo{
   width: 100%;
   height: 100%;
   background-color: #228B22;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 /* /box 100 */
 
