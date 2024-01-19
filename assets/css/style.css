@@ -50,13 +50,10 @@ footer h5{
 }
 
 body{
-  /* max-width: 1200px; */
   background-color: white;
   font-family: sans-serif;
   font-weight: 600;
   color: white;
-  /* font-style: bold; */
-
 }
 
 /* header */
@@ -64,12 +61,6 @@ header{
   background-color: #255EE9;
   height: 80px;
   padding: 20px 350px 0 280px;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-   */
 }
 
 footer{
@@ -80,15 +71,6 @@ footer{
   /* display: flex;
   justify-content: left; */
 }
-
-/* footer .logo{
-  background-color: #FFB6C1;
-  
-}
-
-.logo .logo-img{
-  width: 250px;
-} */
 /* /logo */
 
 /* nav centrale */
@@ -175,8 +157,6 @@ footer ul li a{
   background-color: #8EA1E1;
 }
 
-
-
 /* footer btn */
 footer .btn{
   background-color: #FFB6C1;
@@ -186,9 +166,7 @@ footer .btn{
 
 /* /header */
 
-
 /* main */
-
 
 /* box */
 .box{
@@ -207,7 +185,6 @@ footer .btn{
 
 /* hero */
 .box .hero{
-  /* background-color: #EE82EE; */
   width: 98%;
   max-width: 950px;
   height: 400px;
@@ -242,7 +219,6 @@ footer .box{
 }
 
 .box-contenitore{
-  /* background-color: #DAA520; */
   max-width: 1200px;
   width: 99%;
   height: 600px;
@@ -274,14 +250,10 @@ header .box-contenitore{
 /* footer box */
 footer .box{
   background-color: #23272A;
-  /* border-bottom: 2px solid #F6F8F9 ; */
 }
 
 footer .box#piccolo{
   height: 100px;
-  /* border-top: 2px solid #F6F8F9 ; */
-
-  /* border: none; */
 }
 /* /footer box */
 
@@ -292,22 +264,12 @@ footer .box#piccolo{
 .box-contenitore .settanta{
   width: 60%;
   height: 100%;
-  /* background-color: #1E90FF; */
-  
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .box-contenitore .trenta{
   width: 40%;
   height: 100%;
   color: #23272A;
   text-align: center;
-  
-  /* background-color: #FFC0CB; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 p{
@@ -340,11 +302,6 @@ p{
 footer .box-contenitore .foot-grande{
   width: 35%;
   height: 100%;
-  /* background-color: #F08080; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
 }
 
 
@@ -352,10 +309,6 @@ footer .box-contenitore .foot-grande{
 footer .box-contenitore .foot-piccolo{
   width: 20%;
   height: 100%;
-  /* background-color: #20B2AA; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 footer .box-contenitore#bottom{
@@ -381,6 +334,12 @@ footer .box-contenitore .little{
 footer p{
   margin-left: 0;
   text-align: left;
+}
+
+/* bandiera */
+footer p img{
+  width: 25px;
+  height: 20px;
 }
 
 
