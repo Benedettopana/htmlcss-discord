@@ -361,3 +361,7 @@ footer .social i{
   margin: 0 350px;
 }
 /* /main */
+
+.wave{
+  transform: translateY(20px);
+}
